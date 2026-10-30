@@ -39,9 +39,3 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("io.github.ljcamargo:llamacpp-kotlin:0.4.0")
 }
-
-configurations.all {
-    resolutionStrategy {
-        force("androidx.core:core:1.13.1", "androidx.core:core-ktx:1.13.1")
-    }
-}
